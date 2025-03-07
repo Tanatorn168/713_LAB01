@@ -1,4 +1,5 @@
-function greet(name) {
-    console.log('Hello ' + name);
+function greet(name){
+    return 'Hello ' + name
 }
-greet('John')
+greet('John');
+
