@@ -1,11 +1,5 @@
-function calculateTotal(scores) {
-    let total = 0;
-    for (let i = 0; i < scores.length; i++) {
-        total += scores[i]; 
-    }
-    return total; 
+const greet = function greet(name){
+    return 'Hello ' + name
 }
 
-let studentScores = [10, 20, 30];
-let totalScore = calculateTotal(studentScores);
-console.log("ผลรวมคะแนนทั้งหมด:", totalScore);
+console.log(greet('John'))
